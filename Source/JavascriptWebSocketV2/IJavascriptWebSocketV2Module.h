@@ -4,7 +4,7 @@
 #include "Modules/ModuleManager.h"
 
 /**
- * Interface for the JavascriptHttp Module.
+ * Interface for the JavascriptWebSocketV2 Module.
  */
 class IJavascriptWebSocketV2Module : public IModuleInterface {
 public:

@@ -1,4 +1,4 @@
-#include "IJavascriptWebSocketV2Module.h"
+#include "JavascriptWebSocketV2Module.h"
 
 class FJavascriptWebSocketV2 : public IJavascriptWebSocketV2Module {
   // Begin IModuleInterface

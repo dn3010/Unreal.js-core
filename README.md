@@ -1,6 +1,6 @@
 # Building and installing the plugin.
-- run `./scripts/build.sh` to build the plugin.
-- run `./scripts/copy.sh` to copy the plugin to adjacent unreal-demo-js project.(https://github.com/dn3010/unreal-js-demo)
+- run `cd scripts && ./build.sh` to build the plugin.
+- run `cd scripts && ./copy.sh` to copy the plugin to adjacent unreal-demo-js project.(https://github.com/dn3010/unreal-js-demo)
 
 
 [![star this repo](http://githubbadges.com/star.svg?user=ncsoft&repo=Unreal.js&style=default)](https://github.com/ncsoft/Unreal.js)

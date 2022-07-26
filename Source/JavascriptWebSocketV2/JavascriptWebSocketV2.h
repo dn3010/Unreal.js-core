@@ -12,6 +12,7 @@ class UJavascriptWebSocketV2 : public UObject {
 public:
   DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnWebSocketDelegateV2NoParam);
   DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnWebSocketDelegateV2OneParam, const FString& , stringData);
+  DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnWebSocketDelegateV2TwoParam, const FString&, eventName, FString&, stringData);
 
 	UPROPERTY(BlueprintAssignable, Category = "Scripting | Javascript")
   FOnWebSocketDelegateV2NoParam OnConnectedEvent;
